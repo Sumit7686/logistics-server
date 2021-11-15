@@ -14,8 +14,8 @@ const transporter = nodeMailer.createTransport({
   secure: false,
   requireTLS: true,
   auth: {
-    user: "sumitbharodiya76@gmail.com",
-    pass: "$umiT7686",
+    user: "your email address.",
+    pass: "your email password.",
   },
 });
 var otp = Math.floor(Math.random() * 1000) + 1111;
